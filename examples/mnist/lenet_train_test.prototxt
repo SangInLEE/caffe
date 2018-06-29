@@ -65,6 +65,7 @@ layer {
     pool: MAX
     kernel_size: 2
     stride: 2
+#풀링하는데 stride없으면 중복된 데이터 뽑힘
   }
 }
 layer {
